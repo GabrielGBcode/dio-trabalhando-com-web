@@ -7,22 +7,18 @@
     <link rel="stylesheet" href="styles/card.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="card">
-        <div class="card_left">
-          <span class="author">By Gabriel GB</span>
-          <h1>Darth Vader Contrata Devs</h1>
-          <p>
-            Darth Vader procura desenvolvedores que sabem trabalhar com
-            componentes
-          </p>
-        </div>
-        <div class="card_right">
-          <img src="assets/darth-vader-coffee(perso).jpg" alt="Darth Vader" />
-        </div>
-      </div>
-    </div>
-    <card-news></card-news>
+    <card-news
+      author="Gabriel"
+      title="Darth Vader Contrata"
+      link-url="https://google.com"
+      photo="assets/darth-vader-coffee(perso).jpg"
+      content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes"
+    ></card-news>
+    <card-news
+      title="Baby Yoda demite funcionários"
+      link-url="https://youtube.com"
+      content="Baby Yoda enfrenta crise e demite funcionários em massa!"
+    ></card-news>
     <script src="src/components/CardNews.js" defer></script>
     <script src="src/components/TituloDinamico.js" defer></script>
   </body>
